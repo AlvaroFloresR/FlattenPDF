@@ -8,6 +8,7 @@ Created on Thu Mar 10 11:40:06 2022
 #Import Libraries
 import os
 from pdf2image import convert_from_path
+#poppler library needs to be installed for pdf2image to work
 
 #Initial Variables
 resolution = 100 #dpi, 100 is more than enough and higher values usually run out of memory
